@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* universal sectors */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* root variable declaration */
+:root{
+    --clr-primary:#003399;
+    --clr-secondary:#FFCC00;
+    --clr-light:#F97102;
+    --clr-white:#6b6b6b;
+    --clr-bg:#fff;
+}
+
+/* html elements */
+html{
+    font-size: 10px;
+    font-family: "Urbanist", sans-serif;
+    font-family: "Rozha One", serif;
+    scroll-behavior: smooth;
+    background-color: #FAFAFA;
+}
