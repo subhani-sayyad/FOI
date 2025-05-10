@@ -800,7 +800,7 @@ a:hover{
     justify-content: center;
 }
 .contact-form .contact-input{
-    min-width: 37rem;
+    min-width: 34rem;
     height: 4.5rem;
     padding-left: 2rem;
     background: none;
@@ -879,7 +879,7 @@ a:hover{
     padding-bottom: 1rem;
 }
 .footer-form .contact-input{  
-    min-width: 35rem;
+    min-width: 32rem;
     height: 5rem;
     padding-left: 0.8rem;
     background: #fff;
