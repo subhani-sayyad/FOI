@@ -1004,6 +1004,9 @@ hr{
     .top-navbar{
         display: none;
     }
+    .hero-content p{
+        display: none;
+    }
     nav ul{
         position: absolute;
         left:0;
