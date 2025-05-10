@@ -154,78 +154,7 @@ color:var(--clr-white);
     padding-bottom: 4rem;
 }
 
-/* top-navbar */
-/* .top-navbar{
-    max-width: 120rem;
-    display: flex;
-    align-items: center;
-    padding: 2rem;
-    background-color: var(--clr-primary);
-    color: var(--clr-bg);
-    height: 5rem;
-    cursor: pointer;
-} */
-
-/* navbar */
-.bottom-navbar{
-    display: flex;
-    align-items: center;
-    padding: 2rem;
-    height: 7rem;
-    position: sticky;
-    border-bottom: #e1e1e1 0.1rem solid;
-    top:0;
-    background-color: var(--clr-bg);
-}
-
-/* navitems */
-nav{
-    flex: 1;
-    text-align: center;
-}
-nav ul{
-    display: inline-block;
-    list-style-type: none;
-    align-items: center;
-}
-nav ul li{
-    display: inline-block;
-    margin-right: 4rem;
-}
-a{
-    text-decoration: none;
-    color:var(--clr-white);
-    font-size: 1.5rem;
-}
-a:hover{
-    color: var(--clr-primary);
-    cursor:pointer;
-}
-.hero-content{
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    place-items: center;
-    margin-top: 3rem;
-    text-align: center;
-}
-.hero-content h1{
-     font-family: "Rozha One", serif;
-     font-size: 6.8rem;
-     line-height: 7rem;
-     color:var(--clr-primary);
-     letter-spacing: 0.2rem;
-     margin: 0.9rem 0;
-}
-.hero-content p{
-    font-family: "Urbanist", sans-serif;
-    font-size:1.8rem;
-    font-weight: 500;
-    color: var(--clr-white);
-}
-
 /* topnav */
-
 .top-navbar{
     display: flex;
     flex-wrap: wrap;
@@ -294,66 +223,65 @@ a:hover{
 .x:hover{
     color:var(--clr-secondary);
     cursor: pointer;
+}
 
-}
-/* .flex{
+/* navbar */
+.bottom-navbar{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 10rem;
-    width: 100%;
-    z-index: 999;
+    padding: 2rem;
+    height: 7rem;
+    position: sticky;
+    border-bottom: #e1e1e1 0.1rem solid;
+    top:0;
+    background-color: var(--clr-bg);
 }
- nav .top-nav{
-    background-color: var(--clr-primary);
-    color: var(--clr-bg);
-    height: 5rem;
-    cursor: pointer;
+
+/* navitems */
+nav{
+    flex: 1;
+    text-align: center;
 }
-.top-nav > div + div,
-.mail > div,
-.ph-number > div{
-    margin-left: 4rem;
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    align-items: center;
 }
-.social-icons, i{
-    margin-left: 1.3rem;
+nav ul li{
+    display: inline-block;
+    margin-right: 4rem;
+}
+a{
+    text-decoration: none;
+    color:var(--clr-white);
     font-size: 1.5rem;
-    display: flex;
 }
-.mail-id{
-    gap: 0.8rem;
-    font-size: 1.5rem;
-    font-weight: 500;
-    i{
-        color:var(--clr-secondary)
-    }
-}
-.address{
-    gap: 0.8rem;
-    font-size: 1.5rem;
-    font-weight: 500;
-    i{
-        color:var(--clr-secondary)
-    }
-}
-.ph-number{
-    gap: 0.8rem;
-    font-size: 1.6rem;
-    font-weight: 600;
-    background-color: var(--clr-secondary);
-    height: 100%;
+a:hover{
     color: var(--clr-primary);
-    padding: 0 2rem;
+    cursor:pointer;
 }
-.address:hover,
-.mail-id:hover{
-    color:var(--clr-secondary);
+.hero-content{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    place-items: center;
+    margin-top: 3rem;
+    text-align: center;
 }
-.fb:hover,
-.insta:hover,
-.x:hover{
-    color:var(--clr-secondary);
-} */
+.hero-content h1{
+     font-family: "Rozha One", serif;
+     font-size: 6.8rem;
+     line-height: 7rem;
+     color:var(--clr-primary);
+     letter-spacing: 0.2rem;
+     margin: 0.9rem 0;
+}
+.hero-content p{
+    font-family: "Urbanist", sans-serif;
+    font-size:1.8rem;
+    font-weight: 500;
+    color: var(--clr-white);
+}
 
 /* -----about us page start--- */
 .about-us{
